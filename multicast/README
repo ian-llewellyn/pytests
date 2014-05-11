@@ -1,0 +1,16 @@
+Herein lies a set of file all concerned with multicast network communication.
+
+I wrote these to learn and examine the way that multicast operates.
+
+A - one source for a group
+In this implementeation, I'd like to demontrate a talking clock audio server.
+Included will be an audio streaming client that will listen to traffic on a
+configurable multicast group. The client should have the ability to use SSM
+(source specific multicast) to block out any unwanted traffic on the multicast
+group.
+
+b - multiple sources for a group
+This application will be a chat client that gives any participating user the
+ability to broadcast text messages to any other client on the same group. This
+application will therefore use ASM (any source multicast).
+
